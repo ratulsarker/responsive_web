@@ -1,0 +1,24 @@
+h1 {
+    /* Basic styling */
+    color: #333;                      /* Text color */
+    font-size: 48px;                  /* Text size */
+    font-family: Arial, sans-serif;   /* Font type */
+    text-align: center;               /* Center alignment */
+    
+    /* Spacing */
+    margin: 20px 0;                   /* Top and bottom margin */
+    padding: 15px;                    /* Padding around text */
+    
+    /* Modern styling */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
+    letter-spacing: 2px;              /* Space between letters */
+    
+    /* Animation */
+    transition: all 0.3s ease;        /* Smooth transition for hover effects */
+}
+
+/* Hover effect (optional) */
+h1:hover {
+    color: #007bff;                   /* Change color on hover */
+    transform: scale(1.05);           /* Slightly increase size on hover */
+}
